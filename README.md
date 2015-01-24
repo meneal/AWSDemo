@@ -9,12 +9,15 @@ in Eclipse using the Eclipse AWS SDK plugin.
 To make the program something others could demo I turned it into a jar file.  The 
 jar file has a few different requirements though. 
 
-The first requirement is to have a group called bitcrusher with the following setttings:
+The first requirement is to set up group settings as follows:
 
-To set up the bitcrusher group in EC2 on the aws dashboard under Network & Security 
-select "Security Groups", click "Create Security Group" set Security Group Name to "bitcrusher"
-under the inbound tab select "Custom TCP Rule" under type, select "TCP" under Protocol, enter
-"22" in the port range, and set source to "My IP" then click "Create".
+On the aws dashboard under Network & Security 
+select "Security Groups", click "Create Security Group" 
+set Security Group Name to "bitcrusher"
+under the inbound tab select "Custom TCP Rule" 
+under type, select "TCP" 
+under Protocol, enter "22" in the port range, 
+and set source to "My IP" then click "Create".
 
 The second requirement is that credentials are set up as follows:
 
