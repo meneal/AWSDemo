@@ -1,0 +1,7 @@
+I spent a lot of my time on EC2 instances for this project as that was what I was most 
+interested in using AWS for.  I learned about the different ways you can actually instantiate
+servers using AWS.  I was surprised to find that they had a separate service for creating "Spot Instances"
+that are basically unused Amazon Capacity.  You can bid up to a specific amount per hour for the instances
+but they aren't guaranteed to be there as long as you may expect.  As Amazon put it "Your Spot instance
+Runs whenever your bid exceeds the current market price".  The idea is to use the spot instance for things 
+that can tolerate loss of service for when the excess capacity is unavailble.
